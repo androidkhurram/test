@@ -41,7 +41,7 @@ public class CDrawer extends SurfaceView
   public CDrawer(Context paramContext, AttributeSet paramAttributeSet)
   {
     super(paramContext, paramAttributeSet);
-   
+    System.out.println("CDrawer()");
     mHolder = getHolder();
     mContext = paramContext;
     mHolder.addCallback(this);
